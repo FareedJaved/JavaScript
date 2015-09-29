@@ -6,7 +6,7 @@ var choice;
 
 switch (user){
     case 'GRYFFINDOR':
-        choice = prompt("You might belong in Gryffindor,Where dwell the brave at heart, Their daring, nerve and chivalry Set Gryffindors apart...Congrats! You have now become a darling of the wizarding world. Even though you can pretty much get away with everything, Gryffindorians are a brave, daring and chivalrous lot. Your emblem is a lion & your house colours are scarlet and gold..Fun Fact: Godric Gryffindor's first name has Anglo-Saxon roots, which means: 'he who rules with God'... Trivia: Did you know that Gryffindor corresponds to the element of fire?! Notable alumni: Harry Potter (duh), Albus Percivel Wolfric Brian Dumbledore...and pretty much every good person in the story. Are you happy with your choice? Do you feel like Gryffindor fits you?").toUpperCase();
+        choice = prompt("You might belong in Gryffindor, Where dwell the brave at heart, Their daring, nerve and chivalry Set Gryffindors apart...Congrats! You have now become a darling of the wizarding world. Even though you can pretty much get away with everything, Gryffindorians are a brave, daring and chivalrous lot. Your emblem is a lion & your house colours are scarlet and gold..Fun Fact: Godric Gryffindor's first name has Anglo-Saxon roots, which means: 'he who rules with God'... Trivia: Did you know that Gryffindor corresponds to the element of fire?! Notable alumni: Harry Potter (duh), Albus Percivel Wolfric Brian Dumbledore...and pretty much every good person in the story. Are you happy with your choice? Do you feel like Gryffindor fits you?").toUpperCase();
         
         if (choice === "YES" ){
             console.log("Great! Enjoy your semester!");
@@ -18,7 +18,7 @@ switch (user){
         break; 
         
     case 'HUFFLEPUFF':
-        choice = prompt("You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And unafraid of toil...Congrats! Hufflepuffers are a loyal, patient and hard working group! Your emblem is a badger & your house colours are yellow & black. Fun Fact: Hufflepuffers have the coziest quarters being described as:'round, earthy and low-ceilinged. It always feels sunny and its circular windows have a view of rippling grass and dandelions. Copper lamps cast a warm light over our four -posters, all of which are covered in patchwork quilts, and copper bed warmers hang on the walls,should you have cold feet.' Trivia: Did you know that Hufflepuff corresponds to the element of earth? Notable alumni: Cedric Diggory...and no one else.Let me know if you're happy with your choice. Do you feel like Hufflepuff fits you?").toUpperCase();
+        choice = prompt("You might belong in Hufflepuff, Where they are just and loyal, Those patient Hufflepuffs are true, And unafraid of toil...Congrats! Hufflepuffers are a loyal, patient and hard working group! Your emblem is a badger & your house colours are yellow & black. Fun Fact: Hufflepuffers have the coziest quarters being described as:'round, earthy and low-ceilinged. It always feels sunny and its circular windows have a view of rippling grass and dandelions. Copper lamps cast a warm light over our four -posters, all of which are covered in patchwork quilts, and copper bed warmers hang on the walls, should you have cold feet.' Trivia: Did you know that Hufflepuff corresponds to the element of earth? Notable alumni: Cedric Diggory...and no one else. Let me know if you're happy with your choice. Do you feel like Hufflepuff fits you?").toUpperCase();
         
         if (choice === "YES"){
             console.log("Great! Enjoy your semester!");
@@ -29,7 +29,7 @@ switch (user){
         break;
         
     case 'RAVENCLAW':
-        choice = prompt("'Or yet in wise old Ravenclaw, If you've a ready mind, Where those of wit and learning, Will always find their kind' Congrats! Ravenclaws are a witty intelligent and curious bunch. Your emblem is an          eagle and your colours are blue & bronze. Fun Riddle: 'Which came first, the phoenix or the flame?").toUpperCase(); 
+        choice = prompt("'Or yet in wise old Ravenclaw, If you've a ready mind, Where those of wit and learning, Will always find their kind' Congrats! Ravenclaws are a witty intelligent and curious bunch. Your emblem is an eagle and your colours are blue & bronze. Fun Riddle: 'Which came first, the phoenix or the flame?").toUpperCase(); 
         switch (choice){
             case 'PHOENIX':
                 console.log("wrong");

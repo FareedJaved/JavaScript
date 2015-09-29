@@ -4,12 +4,16 @@
 
 
 var userChoice = prompt("Do you choose rock, paper or scissors?");
+
 while (userChoice != "rock" 
-&& userChoice!="paper"
-&& userChoice!= "scissors"){
-    prompt("Please choose rock paper or scissors!"); 
+    && userChoice!="paper"
+    && userChoice!= "scissors"){
+    
+     prompt("Please choose rock paper or scissors!"); 
 }
+
 var computerChoice = Math.random();
+
 if (computerChoice < 0.34) {
 	computerChoice = "rock";
 } else if(computerChoice <= 0.67) {
@@ -17,6 +21,7 @@ if (computerChoice < 0.34) {
 } else {
 	computerChoice = "scissors";
 } console.log("Computer: " + computerChoice);
+
 
 var compare = function (choice1, choice2){
     if (choice1 === choice2){

@@ -1,0 +1,1 @@
+These are exercises done in JavaScripts to help practice fundamental programming concepts in JavaScript. 
