@@ -1,2 +1,2 @@
 # JavaScript
-JavaScript Exercises done on Codecademy.com
+JavaScript Project and exercises
