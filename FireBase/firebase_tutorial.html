@@ -17,10 +17,11 @@
 
   				var name = $("#nameInput").val(); 
   				var text = $("#messageInput").val(); 
-  				/* Using set function to create object with data
+  				/*  Changing the set function to push in order to
+  					to create object with data
   					entered by the user
   				*/ 
-  				myDataBaseRef.set({name: name, text: text}); 
+  				myDataBaseRef.push({name: name, text: text}); 
 
   				$('#messageInput').val(''); 
   			}
