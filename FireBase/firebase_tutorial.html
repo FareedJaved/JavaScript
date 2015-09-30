@@ -7,13 +7,21 @@
   	<input type="text" id = 'nameInput' placeholder='Name'>
   	<input type="text" id = 'messageInput' placeholder= 'Mesage'>
   	<script> 
+
+  		// A link to my database
   		var myDataBaseRef = 'https://e49vxip5867.firebaseio-demo.com/'; 
+
   		$('#messageInput').keypress(function (e) {
+
   			if (e.keyCode == 13) {
+
   				var name = $("#nameInput").val(); 
   				var text = $("#messageInput").val(); 
-  				<!-- Adding data by using set method --> 
-  				myDataBaseRef.set('User ' + name + ' says ' + text); 
+  				/* Using set function to create object with data
+  					entered by the user
+  				*/ 
+  				myDataBaseRef.set({name: name, text: text}); 
+
   				$('#messageInput').val(''); 
   			}
   		});
