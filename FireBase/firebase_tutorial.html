@@ -17,9 +17,8 @@
 
   				var name = $("#nameInput").val(); 
   				var text = $("#messageInput").val(); 
-  				/*  Changing the set function to push in order to
-  					to create object with data
-  					entered by the user
+  				/*  Changing the set function to push() in order to
+  					create a list of chat messages.
   				*/ 
   				myDataBaseRef.push({name: name, text: text}); 
 
