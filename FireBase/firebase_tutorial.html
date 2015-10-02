@@ -18,12 +18,18 @@
   				var name = $("#nameInput").val(); 
   				var text = $("#messageInput").val(); 
   				/*  Changing the set function to push() in order to
-  					create a list of chat messages.
+  					create a list of chat messages. Allows other users to 
+  					add data
   				*/ 
   				myDataBaseRef.push({name: name, text: text}); 
 
   				$('#messageInput').val(''); 
   			}
+  		});
+
+  		// Making the database tell us when data is added 
+  		myDataBaseRef.on('child_added', function(snapshot) {
+  			// Going to fill this in later. 
   		});
   	</script>
   </body>
