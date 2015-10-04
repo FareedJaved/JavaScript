@@ -29,8 +29,12 @@
 
   		// Making the database tell us when data is added 
   		myDataBaseRef.on('child_added', function(snapshot) {
-  			// Going to fill this in later. 
+  			var message = snapshot.val(); 
+        displayChapMessage(message.name, message.text); 
   		});
+
+
+
   	</script>
   </body>
 </html>
